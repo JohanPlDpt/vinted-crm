@@ -9,9 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "format": "prettier --write .",
-    "db:push": "prisma db push",
-    "db:studio": "prisma studio"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -25,7 +23,6 @@
     "axios": "^1.6.0",
     "zustand": "^4.4.0",
     "classnames": "^2.3.0",
-    "csv-parser": "^3.0.0",
     "papaparse": "^5.4.1"
   },
   "devDependencies": {
